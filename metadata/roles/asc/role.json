@@ -1,0 +1,23 @@
+{
+  "id": "6f24f150-a703-4f3d-9f97-28e0ca4b40ed",
+  "name": "asc",
+  "label": "ASC",
+  "orgUnitLevelId": "0e92d25f-7461-442c-818b-208396d6c31b",
+  "permissions": [
+    "permission_deferred_collection",
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_view_indicators",
+    "permission_edit_report",
+    "permission_delete_report",
+    "permission_automatic_sync",
+    "permission_manual_sync",
+    "permission_create_famille",
+    "permission_edit_famille",
+    "permission_delete_famille",
+    "permission_create_enfant",
+    "permission_edit_enfant",
+    "permission_delete_enfant"
+  ]
+}

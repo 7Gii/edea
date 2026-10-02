@@ -1,0 +1,27 @@
+{
+  "id": "d9569715-6576-41d6-bec6-7a66bad48111",
+  "name": "suivi_diarrhee",
+  "title": "Suivi diarrhée",
+  "icon": "task_icon_default",
+  "description": [
+    "Suivi de l'enfant à la date fixée par l'ASC lors de l'évaluation diarrhée (affiché 2 jours avant, expire 3 jours après)."
+  ],
+  "appliesTo": "report",
+  "appliesIf": "appliesIf",
+  "actionFormId": "fc9f09c5-fd16-4e88-a1bd-1f472d0da78d",
+  "events": [
+    {
+      "id": "suivi",
+      "title": "Suivi diarrhée",
+      "dueDate": "dueDate",
+      "startDays": 2,
+      "endDays": 3
+    }
+  ],
+  "personTypes": [],
+  "forms": [
+    "evaluation_diarrhee"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": "priority"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "edea",
+  "title": "EDEA",
+  "theme": "default",
+  "description": "Default project description.",
+  "organisation": "EDEA",
+  "version": "1.0.1",
+  "partners": [],
+  "branding": [],
+  "attributes": {},
+  "deploymentType": "staging",
+  "icon": "",
+  "mobileMaxQueryRows": 100,
+  "consoleMaxQueryRows": 500,
+  "languages": [
+    "fr"
+  ],
+  "defaultLanguage": "fr",
+  "utilsFolder": "utils",
+  "styling": {
+    "globalCss": "assets/css/global.css"
+  },
+  "devInstances": [],
+  "automations": [],
+  "adminFolders": {
+    "visualizations": "admin/visualizations/",
+    "dashboards": "admin/dashboards/"
+  },
+  "metadataFiles": {
+    "permissions": "metadata/permissions.json",
+    "tags": "metadata/tags.json"
+  },
+  "metadataFolders": {
+    "assets": "assets/",
+    "i18n": "i18n/",
+    "scripts": "scripts/",
+    "metadata": "metadata/",
+    "org_unit_levels": "metadata/org_unit_levels/",
+    "person_types": "metadata/person_types/",
+    "roles": "metadata/roles/",
+    "forms": "metadata/forms/",
+    "indicators": "metadata/indicators/",
+    "tasks": "metadata/tasks/",
+    "automations": "metadata/automations/",
+    "optionSets": "metadata/optionSets/",
+    "dataElements": "metadata/dataElements/"
+  },
+  "collection": {
+    "type": "one_off",
+    "startDate": "2026-10-02",
+    "endDate": "2026-12-02",
+    "marginDays": 7
+  }
+}

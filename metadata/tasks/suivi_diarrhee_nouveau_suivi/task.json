@@ -1,0 +1,26 @@
+{
+  "id": "cbc5d73a-48b1-4b7d-857c-439cfd15e747",
+  "name": "suivi_diarrhee_nouveau_suivi",
+  "title": "Suivi diarrhée (nouveau suivi)",
+  "icon": "task_icon_default",
+  "description": [
+    "Nouveau suivi de l'enfant quand l'ASC fixe une nouvelle date lors d'un suivi (affiché 2 jours avant, expire 3 jours après)."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "fc9f09c5-fd16-4e88-a1bd-1f472d0da78d",
+  "events": [
+    {
+      "id": "suivi",
+      "title": "Nouveau suivi diarrhée",
+      "dueDate": "dueDate",
+      "startDays": 2,
+      "endDays": 3
+    }
+  ],
+  "forms": [
+    "suivi_diarrhee"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": "priority",
+  "appliesIf": "appliesIf"
+}

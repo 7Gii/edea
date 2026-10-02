@@ -1,0 +1,16 @@
+{
+  "id": "7d73334b-f21a-4a2b-8b81-86f12bd1a2f3",
+  "name": "evaluations_diarrhee",
+  "title": "Évaluations diarrhée",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "Nombre d'évaluations diarrhée soumises."
+  ],
+  "goalExpression": "",
+  "type": "number",
+  "displayExpression": "showIndicator",
+  "valueExpression": "calculateValue",
+  "priority": "priority"
+}

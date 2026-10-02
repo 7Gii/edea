@@ -1,0 +1,15 @@
+{
+  "id": "0d9aad42-cf5e-4e2a-bb62-4dd140d7a65b",
+  "name": "cas_diarrhee",
+  "title": "Cas de diarrhée",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "Nombre d'évaluations et de suivis où la diarrhée est présente."
+  ],
+  "goalExpression": "",
+  "type": "number",
+  "displayExpression": "showIndicator",
+  "valueExpression": "calculateValue"
+}

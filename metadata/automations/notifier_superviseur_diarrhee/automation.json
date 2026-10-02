@@ -1,0 +1,15 @@
+{
+  "id": "3beb4dac-ae0c-44eb-a80b-f1feedc91113",
+  "name": "notifier_superviseur_diarrhee",
+  "title": "Notifier le superviseur en cas de diarrhée",
+  "description": "Quand une évaluation ou un suivi diarrhée indique une diarrhée, notifie le(s) superviseur(s) rattaché(s) à la ville de l'enfant.",
+  "trigger": {
+    "type": "FORM_SUBMITTED",
+    "forms": [
+      "evaluation_diarrhee",
+      "suivi_diarrhee"
+    ]
+  },
+  "condition": "checkCondition",
+  "action": "runAction"
+}

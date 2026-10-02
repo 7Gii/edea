@@ -1,0 +1,18 @@
+{
+  "id": "587cb0ce-8bb7-413e-8f91-2a370dffb257",
+  "dataType": "date",
+  "organisation": "EDEA",
+  "name": "date_prochain_suivi",
+  "label": "Date du prochain suivi",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

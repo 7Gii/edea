@@ -1,0 +1,23 @@
+{
+  "id": "704d4b17-c914-4fb7-9af0-872849af1039",
+  "name": "pays",
+  "label": "Pays",
+  "icon": "layout-group",
+  "level": 1,
+  "attributes": [
+    {
+      "key": "f4730490-8a85-40c3-980a-caf6415d487c",
+      "title": "Identification details",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Nom du pays",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "dashboard": []
+}

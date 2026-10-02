@@ -1,0 +1,44 @@
+{
+  "id": "dda9a563-2025-46e7-a147-84a5033ce7e9",
+  "name": "enfant",
+  "label": "Enfant",
+  "icon": "symbol-id-card",
+  "orgUnitLevelId": "e6427192-38ac-4152-9f6d-bd40709de027",
+  "attributes": [
+    {
+      "key": "76c205db-96f9-4eb1-8d91-d793b8145c08",
+      "title": "Identification Details",
+      "fields": [
+        {
+          "key": "person_name",
+          "label": "Nom complet",
+          "dataType": "string",
+          "dataElementId": "abb51cfa-d57b-4bee-af38-4ed22e2729fd",
+          "required": true
+        },
+        {
+          "key": "person_gender",
+          "label": "Sexe",
+          "dataType": "select_one",
+          "dataElementId": "17fea262-eed0-4a51-a00b-7d98cfbac120"
+        },
+        {
+          "key": "birthdate",
+          "label": "Date de naissance",
+          "dataType": "date",
+          "dataElementId": "6198a2c5-6eea-408b-a8e2-a2198cdd4dca",
+          "required": true,
+          "validationExpression": "ageMoins5Ans",
+          "validationMessage": "L'enfant doit avoir entre 0 et 59 mois (moins de 5 ans)"
+        },
+        {
+          "key": "person_is_deceased",
+          "label": "Décédé",
+          "dataType": "boolean",
+          "dataElementId": "b62d0731-213b-4924-a067-fc6976a78b78"
+        }
+      ]
+    }
+  ],
+  "dashboard": []
+}

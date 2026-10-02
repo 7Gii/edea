@@ -1,0 +1,18 @@
+{
+  "id": "0bc7a934-49e9-4499-bcdd-922302e0e47f",
+  "dataType": "boolean",
+  "organisation": "EDEA",
+  "name": "sro_propose",
+  "label": "SRO proposé",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "fc9f09c5-fd16-4e88-a1bd-1f472d0da78d",
+  "name": "suivi_diarrhee",
+  "title": "Suivi diarrhée",
+  "version": "1.0.0",
+  "icon": "form_default",
+  "className": "",
+  "displayExpression": "showForm",
+  "duration": 30,
+  "sections": [
+    {
+      "key": "suivi",
+      "title": "Suivi",
+      "icon": "layout-group",
+      "fullPage": "(app) => true",
+      "displayExpression": "(app) => true",
+      "fields": [
+        {
+          "key": "diarrhee_presente",
+          "label": "L'enfant a-t-il encore la diarrhée ?",
+          "dataType": "boolean",
+          "dataElementId": "144fab73-6e9c-4631-89e3-1aef1b05465d",
+          "tags": [],
+          "className": "",
+          "required": "isRequired",
+          "displayExpression": "(app) => true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "Au moins 3 selles liquides en 24 heures",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "conseil_traitement",
+          "label": "Diarrhée détectée : proposer un SRO et du zinc. Le superviseur sera notifié.",
+          "dataType": "info",
+          "dataElementId": "",
+          "tags": [],
+          "className": "",
+          "displayExpression": "hasDiarrhee",
+          "alertType": "warning"
+        },
+        {
+          "key": "sro_propose",
+          "label": "SRO proposé",
+          "dataType": "boolean",
+          "dataElementId": "0bc7a934-49e9-4499-bcdd-922302e0e47f",
+          "tags": [],
+          "className": "",
+          "required": "hasDiarrhee",
+          "displayExpression": "hasDiarrhee",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "Sels de réhydratation orale",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "zinc_propose",
+          "label": "Zinc proposé",
+          "dataType": "boolean",
+          "dataElementId": "f4b18d97-37c7-495a-8f00-68785f626b70",
+          "tags": [],
+          "className": "",
+          "required": "hasDiarrhee",
+          "displayExpression": "hasDiarrhee",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "date_prochain_suivi",
+          "label": "Date du prochain suivi (si nécessaire)",
+          "dataType": "date",
+          "dataElementId": "587cb0ce-8bb7-413e-8f91-2a370dffb257",
+          "tags": [],
+          "className": "",
+          "required": "(app) => false",
+          "displayExpression": "(app) => true",
+          "validationExpression": "dateSuiviValide",
+          "placeholder": "",
+          "hint": "Laisser vide si aucun autre suivi n'est nécessaire",
+          "requiredMessage": "This value is required",
+          "validationMessage": "La date du suivi ne peut pas être dans le passé"
+        }
+      ]
+    }
+  ]
+}

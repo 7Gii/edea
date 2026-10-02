@@ -1,0 +1,23 @@
+{
+  "id": "0e92d25f-7461-442c-818b-208396d6c31b",
+  "name": "ville",
+  "label": "Ville",
+  "icon": "layout-group",
+  "level": 2,
+  "attributes": [
+    {
+      "key": "b33a6f47-30de-4c5d-8e4b-6ad65706326f",
+      "title": "Identification details",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Nom de la ville",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "dashboard": []
+}

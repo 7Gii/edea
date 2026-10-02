@@ -1,0 +1,18 @@
+{
+  "id": "f4b18d97-37c7-495a-8f00-68785f626b70",
+  "dataType": "boolean",
+  "organisation": "EDEA",
+  "name": "zinc_propose",
+  "label": "Zinc proposé",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

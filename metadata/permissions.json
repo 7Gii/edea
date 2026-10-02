@@ -1,0 +1,128 @@
+[
+  {
+    "id": "09c24aef-9778-46af-88aa-2058367dd69f",
+    "name": "permission_view_tasks",
+    "label": "View Tasks Tab",
+    "description": "Allows the user to view the Tasks tab."
+  },
+  {
+    "id": "4223b0c7-10f2-438c-8474-c5c0ff07c9ff",
+    "name": "permission_view_people",
+    "label": "View People Tab",
+    "description": "Allows the user to view the People tab."
+  },
+  {
+    "id": "f8a0cf32-19fa-4e02-b30a-69cedf657f13",
+    "name": "permission_view_reports",
+    "label": "View Reports Tab",
+    "description": "Allows the user to view the Reports tab."
+  },
+  {
+    "id": "e19364be-7221-4e27-8dc1-9d413bb2d6b2",
+    "name": "permission_view_indicators",
+    "label": "View Indicators Tab",
+    "description": "Allows the user to view the Indicators tab."
+  },
+  {
+    "id": "a5dcd1e1-429f-4465-838c-804e48193e97",
+    "name": "permission_edit_report",
+    "label": "Edit Submitted Report",
+    "description": "Allows the user to edit submitted reports."
+  },
+  {
+    "id": "7c38d5c9-1036-4afc-9bf3-9224144c0c0e",
+    "name": "permission_delete_report",
+    "label": "Delete Submitted Report",
+    "description": "Allows the user to delete submitted reports."
+  },
+  {
+    "id": "b6b013c8-7318-49f5-9ccd-afcdd7d8fde7",
+    "name": "permission_automatic_sync",
+    "label": "Automatic Sync",
+    "description": "Allows the user to perform automatic synchronization."
+  },
+  {
+    "id": "05334465-dcef-4cb8-903e-07a76929ebab",
+    "name": "permission_manual_sync",
+    "label": "Manual Sync",
+    "description": "Allows the user to perform manual synchronization."
+  },
+  {
+    "id": "15192210-7e8c-44ed-900f-fbf692da9fa5",
+    "name": "permission_deferred_collection",
+    "label": "Deferred Collection",
+    "description": "Allows the user to enter data at another date than today (app clock), marked deferred."
+  },
+  {
+    "id": "7e02e571-3d9b-42db-a0c4-ae2fda55a7eb",
+    "name": "permission_create_pays",
+    "label": "Create Pays",
+    "description": "Allows creating a new 'Pays'."
+  },
+  {
+    "id": "e5bf8987-863a-4039-9a4c-3bbaff029c3d",
+    "name": "permission_edit_pays",
+    "label": "Edit Pays",
+    "description": "Allows editing an existing 'Pays'."
+  },
+  {
+    "id": "3322e7ca-5b05-484e-9fdd-2dc1c2bff6c4",
+    "name": "permission_delete_pays",
+    "label": "Delete Pays",
+    "description": "Allows deleting a 'Pays'."
+  },
+  {
+    "id": "fa056520-b11a-403d-806a-069c54e36df2",
+    "name": "permission_create_ville",
+    "label": "Create Ville",
+    "description": "Allows creating a new 'Ville'."
+  },
+  {
+    "id": "58c26ee9-d993-4a3d-9288-a0921eea8081",
+    "name": "permission_edit_ville",
+    "label": "Edit Ville",
+    "description": "Allows editing an existing 'Ville'."
+  },
+  {
+    "id": "cbf2e929-d98d-4db5-97bf-66dd4272e960",
+    "name": "permission_delete_ville",
+    "label": "Delete Ville",
+    "description": "Allows deleting a 'Ville'."
+  },
+  {
+    "id": "4d4cbd76-d1a2-4eeb-acb4-efd7a63b074f",
+    "name": "permission_create_famille",
+    "label": "Create Famille",
+    "description": "Allows creating a new 'Famille'."
+  },
+  {
+    "id": "9a7a7aaf-90fe-4581-addb-a065858d07cc",
+    "name": "permission_edit_famille",
+    "label": "Edit Famille",
+    "description": "Allows editing an existing 'Famille'."
+  },
+  {
+    "id": "e6c7e76e-08f1-49d6-b250-a290b8bee3a5",
+    "name": "permission_delete_famille",
+    "label": "Delete Famille",
+    "description": "Allows deleting a 'Famille'."
+  },
+  {
+    "id": "37ab75d8-3263-42c4-934e-288c277481b5",
+    "name": "permission_create_enfant",
+    "label": "Create Enfant",
+    "description": "Allows creating a new 'Enfant'."
+  },
+  {
+    "id": "c3f2bb95-b685-43a6-ab78-627be4c94a47",
+    "name": "permission_edit_enfant",
+    "label": "Edit Enfant",
+    "description": "Allows editing an existing 'Enfant'."
+  },
+  {
+    "id": "6e3bdcf3-641a-4e3c-9f6c-ca5e37687274",
+    "name": "permission_delete_enfant",
+    "label": "Delete Enfant",
+    "description": "Allows deleting a 'Enfant'."
+  }
+]

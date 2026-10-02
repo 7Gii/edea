@@ -1,0 +1,15 @@
+{
+  "id": "c38a9aac-700c-4814-9b41-3226be1fd4aa",
+  "name": "cas_traites_sro_zinc",
+  "title": "Cas traités SRO + zinc",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "Pourcentage des cas de diarrhée ayant reçu SRO et zinc."
+  ],
+  "goalExpression": "",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "calculateValue"
+}
